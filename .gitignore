@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Downloaded pose models and runtime caches
+.cache/
+model-cache/
+
+# Inputs and generated outputs
+examples/*
+!examples/.gitkeep
+outputs/*
+!outputs/.gitkeep
+results/
+*.jsonl
+*_result.mp4
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local secrets / stream credentials
+.env
+*.env
+!*.example.env
+config.env

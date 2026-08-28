@@ -1,0 +1,10 @@
+[project]
+name = "uav-pilot-recognition"
+version = "1.0.0"
+description = "RTMPose and RTMDet based UAV pilot recognition for video and RTSP streams"
+requires-python = ">=3.8,<3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"
